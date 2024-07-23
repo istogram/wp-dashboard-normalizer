@@ -1,6 +1,6 @@
 # Wordpress Dashboard Normalizer
 
-This package provides normalization functions for the Wordpress dashboard.
+This Acorn package provides normalization functions for the Wordpress dashboard.
 
 ## Installation
 

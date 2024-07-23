@@ -1,7 +1,7 @@
 {
   "name": "istogram/wp-dashboard-normalizer",
   "type": "package",
-  "description": "A normalizer package for the Wordpress dashboard.",
+  "description": "An Acorn package for normalizing the Wordpress dashboard.",
   "license": "MIT",
   "authors": [
     {
