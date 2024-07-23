@@ -1,10 +1,10 @@
 <?php
 
-namespace VendorName\ExamplePackage\Facades;
+namespace istogram\WpDashboardNormalizer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Example extends Facade
+class Normalizer extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class Example extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Example';
+        return 'Normalizer';
     }
 }

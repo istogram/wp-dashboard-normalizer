@@ -1,31 +1,21 @@
-# Acorn Example Package
+# Wordpress Dashboard Normalizer
 
-This repo can be used to scaffold an Acorn package. See the [Acorn Package Development](https://roots.io/acorn/docs/package-development/) docs for further information.
+This package provides normalization functions for the Wordpress dashboard.
 
 ## Installation
 
 You can install this package with Composer:
 
 ```bash
-composer require vendor-name/example-package
+composer require istogram/wp-dashboard-normalizer
 ```
 
 You can publish the config file with:
 
 ```shell
-$ wp acorn vendor:publish --provider="VendorName\ExamplePackage\Providers\ExampleServiceProvider"
+$ wp acorn vendor:publish --provider="istogram\WpDashboardNormalizer\Providers\NormalizerServiceProvider"
 ```
 
 ## Usage
 
-From a Blade template:
-
-```blade
-@include('Example::example')
-```
-
-From WP-CLI:
-
-```shell
-$ wp acorn example
-```
+Once installed, the package is autoloaded and no further actions are needed. Please check the config file for applying configuration settings.
