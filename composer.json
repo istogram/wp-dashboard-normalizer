@@ -23,7 +23,7 @@
         "istogram\\WpDashboardNormalizer\\Providers\\NormalizerServiceProvider"
       ],
       "aliases": {
-        "Example": "istogram\\WpDashboardNormalizer\\Facades\\Normalizer"
+        "Normalizer": "istogram\\WpDashboardNormalizer\\Facades\\Normalizer"
       }
     }
   }
